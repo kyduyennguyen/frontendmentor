@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,9 +19,9 @@
   </head>
   <body>
     <div class="container-main">
-      <div class="contents grid-container">
+      <main class="contents grid-container">
         <!-- Create result table -->
-        <div class="result-table grid-items item1">
+        <nav class="result-table grid-items item1">
           <h3>Your Result</h3>
           <div id="circle-result">
             <p id="result-current">76</p>
@@ -34,12 +34,12 @@
               the people who have taken<br />these tests.
             </p>
           </div>
-        </div>
+        </nav>
         <!-- Create summary table -->
-        <div class="summary-table grid-items item2">
+        <nav class="summary-table grid-items item2">
           <h3>Summary</h3>
           <div id="reaction">
-            <img src="assets/images/icon-reaction.svg" />
+            <img src="assets/images/icon-reaction.svg" alt="icon-reaction" />
             <p>Reaction</p>
             <span class="num-summary"
               ><strong style="color: hsl(224, 30%, 27%)">80</strong> / 100</span
@@ -47,7 +47,7 @@
           </div>
 
           <div id="memory">
-            <img src="assets/images/icon-memory.svg" />
+            <img src="assets/images/icon-memory.svg" alt="icon-memory" />
             <p>Memory</p>
             <span class="num-summary"
               ><strong style="color: hsl(224, 30%, 27%)">92</strong> / 100</span
@@ -55,7 +55,7 @@
           </div>
 
           <div id="verbal">
-            <img src="assets/images/icon-verbal.svg" />
+            <img src="assets/images/icon-verbal.svg" alt="icon-verbal" />
             <p class="verbal-visual">Verbal</p>
             <span class="num-summary"
               ><strong style="color: hsl(224, 30%, 27%)">61</strong> / 100</span
@@ -63,7 +63,7 @@
           </div>
 
           <div id="visual">
-            <img src="assets/images/icon-visual.svg" />
+            <img src="assets/images/icon-visual.svg" alt="icon-visual" />
             <p class="verbal-visual">Visual</p>
             <span class="num-summary"
               ><strong style="color: hsl(224, 30%, 27%)">72</strong> / 100</span
@@ -71,8 +71,8 @@
           </div>
 
           <button type="button" id="btn-continue">Continue</button>
-        </div>
-      </div>
+        </nav>
+      </main>
       <footer class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
