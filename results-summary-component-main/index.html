@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-mobile.css" />
+    <link rel="stylesheet" href="css/font.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="container-main">
+      <div class="contents grid-container">
+        <!-- Create result table -->
+        <div class="result-table grid-items item1">
+          <h3>Your Result</h3>
+          <div id="circle-result">
+            <p id="result-current">76</p>
+            <p>of 100</p>
+          </div>
+          <div id="content-result">
+            <p id="great">Great</p>
+            <p>
+              You scored higher than 65% of<br />
+              the people who have taken<br />these tests.
+            </p>
+          </div>
+        </div>
+        <!-- Create summary table -->
+        <div class="summary-table grid-items item2">
+          <h3>Summary</h3>
+          <div id="reaction">
+            <img src="assets/images/icon-reaction.svg" />
+            <p>Reaction</p>
+            <span class="num-summary"
+              ><strong style="color: hsl(224, 30%, 27%)">80</strong> / 100</span
+            >
+          </div>
+
+          <div id="memory">
+            <img src="assets/images/icon-memory.svg" />
+            <p>Memory</p>
+            <span class="num-summary"
+              ><strong style="color: hsl(224, 30%, 27%)">92</strong> / 100</span
+            >
+          </div>
+
+          <div id="verbal">
+            <img src="assets/images/icon-verbal.svg" />
+            <p class="verbal-visual">Verbal</p>
+            <span class="num-summary"
+              ><strong style="color: hsl(224, 30%, 27%)">61</strong> / 100</span
+            >
+          </div>
+
+          <div id="visual">
+            <img src="assets/images/icon-visual.svg" />
+            <p class="verbal-visual">Visual</p>
+            <span class="num-summary"
+              ><strong style="color: hsl(224, 30%, 27%)">72</strong> / 100</span
+            >
+          </div>
+
+          <button type="button" id="btn-continue">Continue</button>
+        </div>
+      </div>
+      <footer class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/kyduyennguyen">Chubby Bear</a>.
+      </footer>
+    </div>
+  </body>
+</html>
