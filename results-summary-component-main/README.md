@@ -30,6 +30,7 @@ Users should be able to:
 
 ### Links
 
+- Solution Site URL: [Frontend-mentor Solution](https://www.frontendmentor.io/solutions/results-summary-component-rQrK058eRz)
 - Live Site URL: [[Results Summary Component Main](https://kyduyennguyen.github.io/frontendmentor/results-summary-component-main/index.html)]
 - Figma Design Source: ![Figma](./Figma/)
 
