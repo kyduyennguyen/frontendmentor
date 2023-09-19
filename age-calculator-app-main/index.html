@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <!-- Link css files -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/mobile-style.css" />
+    <script src="./script.js"></script>
+
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <main id="card-app">
+      <div class="container-main">
+        <section id="date">
+          <div class="input-date">
+            <label for="day" id="label-day">DAY</label><br />
+            <input
+              type="text"
+              id="input-day"
+              name="day"
+              placeholder="DD"
+              minlength="1"
+              maxlength="2"
+              onblur="updateDay()"
+            /><br />
+            <span id="error-day" class="error-box"></span>
+          </div>
+          <div class="input-date">
+            <label for="month" id="label-month">MONTH</label><br />
+            <input
+              type="text"
+              id="input-month"
+              name="month"
+              placeholder="MM"
+              minlength="1"
+              maxlength="2"
+              onblur="updateMonth()"
+            /><br />
+            <span id="error-month" class="error-box"></span>
+          </div>
+          <div class="input-date">
+            <label for="year" id="label-year">YEAR</label><br />
+            <input
+              type="text"
+              id="input-year"
+              name="year"
+              placeholder="YYYY"
+              minlength="4"
+              maxlength="4"
+              onblur="updateYear()"
+            /><br />
+            <span id="error-year" class="error-box"></span>
+          </div>
+        </section>
+        <section id="line-button">
+          <hr />
+          <button id="btn-input" onclick="calculateAge()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="46"
+              height="44"
+              viewBox="0 0 46 44"
+            >
+              <g fill="none" stroke="#FFF" stroke-width="2">
+                <path
+                  d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"
+                />
+              </g>
+            </svg>
+          </button>
+        </section>
+        <section id="result-contents">
+          <h1 class="result-text"><span id="result-years">- -</span> YEARS</h1>
+          <h1 class="result-text">
+            <span id="result-months">- -</span> MONTHS
+          </h1>
+          <h1 class="result-text"><span id="result-days">- -</span> DAYS</h1>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Chubby Bear</a>.
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+@media (min-width: 320px) and (max-width: 768px) {
+  /* Container-main: Create frame for app's table, background-color, size frame, setup style for border  */
+  .container-main {
+    width: 100%;
+    height: 400px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    border-bottom-right-radius: 100px;
+  }
+
+  /* Date part: setup position for labels and textboxes */
+  #date {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+
+  .input-date {
+    margin: 10px;
+  }
+  .input-date label {
+    font-family: 'Poppins-Bold';
+    font-size: 14px;
+    font-weight: 800i;
+    text-transform: uppercase;
+    color: hsl(0, 1%, 44%);
+  }
+
+  .input-date input {
+    width: 100px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid hsl(0, 0%, 86%);
+    font-size: 18px;
+    font-family: 'Poppins-Bold';
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .input-date ::placeholder {
+    padding-left: 2px;
+    font-size: 18px;
+  }
+
+  .error-box {
+    display: none;
+    height: 20px;
+    font-size: 8px;
+    font-family: Poppins-Italic;
+    color: hsl(0, 100%, 67%);
+    font-weight: 400;
+    width: 100%;
+    margin-top: 10px;
+  }
+  /* Line-button */
+  #line-button {
+    width: 100%;
+    height: 35px;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+  }
+
+  hr {
+    width: 100%;
+    margin: 0 10px;
+  }
+
+  #btn-input {
+    background-color: hsl(259, 100%, 65%);
+    border: 0px solid;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0%;
+    margin: 15px;
+  }
+  #btn-input:hover {
+    background-color: hsl(259, 54%, 29%);
+  }
+
+  /* Result Contents*/
+  #result-contents {
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  .result-text {
+    font-family: Poppins-ExtraBoldItalic;
+    font-weight: 800i;
+    font-size: 38px;
+    margin: 0 20px;
+  }
+}
