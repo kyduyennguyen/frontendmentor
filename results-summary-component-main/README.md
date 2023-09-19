@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here]
-- Figma Design Source: ![Figma](./Figma/Layout%20for%20Mobile%20and%20Laptop%20Web%20pages.fig)
+- Live Site URL: [[Results Summary Component Main](https://kyduyennguyen.github.io/frontendmentor/results-summary-component-main/index.html)]
+- Figma Design Source: ![Figma](./Figma/)
 
 ## My process
 
