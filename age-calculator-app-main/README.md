@@ -40,7 +40,7 @@ Users should be able to:
 
 - Solution Site URL: [Frontend-Mentor Solution](https://www.frontendmentor.io/solutions/age-calculator-app-XQuWG87j3J)
 - Live Site URL: [Age Calculator App](https://kyduyennguyen.github.io/frontendmentor/age-calculator-app-main/index.html)
-- Figma Source: [](./figma/)
+- Figma Source: [Figma](./figma/)
 
 ## My process
 
