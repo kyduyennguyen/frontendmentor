@@ -26,7 +26,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [QR Code Component Main](https://kyduyennguyen.github.io/frontendmentor/qr-code-component-main/index.html)
 
 ## My process
 
@@ -47,6 +47,6 @@ I'm going to update my QR code and set color for background because I think curr
 
 ## Author
 
-- Github - [Angelly](https://github.com/kyduyennguyen)
+- Github - [Angelly Nguyen](https://github.com/kyduyennguyen)
 - Frontend Mentor - [@kyduyennguyen](https://www.frontendmentor.io/profile/kyduyennguyen)
 - Linkedin - [Duyen Nguyen](https://www.linkedin.com/in/duyen-dk-nguyen/)
