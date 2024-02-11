@@ -33,15 +33,15 @@ Make sure Users could:
 ### Screenshot
 
 These are screenshots and figma design of my solution:
-[Screenshot of Laptop](./design/screenshot_laptop.png)
-[Screenshot of Phone](./design/screenshot_phone.png)
+![](./design/screenshot_laptop.png)
+![](./design/screenshot_phone.png)
 
 **You can see more in [design folder](./design/)**
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://github.com/kyduyennguyen/frontendmentor/tree/main/interactive-rating-component-main
+- Live Site URL: https://kyduyennguyen.github.io/frontendmentor/interactive-rating-component-main/index.html
 
 ## My process
 
