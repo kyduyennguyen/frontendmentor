@@ -31,8 +31,8 @@ These are screenshots of my solution:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My solution](https://github.com/kyduyennguyen/frontendmentor/tree/main/social-links-profile-main)
+- Live Site URL: [social links profile](https://kyduyennguyen.github.io/frontendmentor/social-links-profile-main/index.html)
 
 ## My process
 
