@@ -1,0 +1,44 @@
+@media (min-width: 375px) and (max-width: 428px) {
+	.main-frame {
+		width: 300px;
+		height: 570px;
+		font-size: 12px;
+	}
+
+	#avatar {
+		width: 100px;
+		height: 100px;
+		margin-top: 23px;
+		margin-bottom: 10px;
+	}
+
+	#name-title {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+
+	#address-title {
+		font-size: 12px;
+		margin-bottom: 15px;
+	}
+
+	.account-connect {
+		width: 250px;
+		margin-top: 25px;
+		margin-left: 25px;
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+		gap: 15px;
+	}
+
+	.btn-connect {
+		width: 250px;
+	}
+
+	.footer {
+		width: 100%;
+		height: 1.5rem;
+		position: absolute;
+		bottom: 0;
+	}
+}
