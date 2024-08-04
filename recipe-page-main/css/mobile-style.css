@@ -1,0 +1,116 @@
+@media (min-width: 375px) and (max-width: 428px) {
+  body {
+    background-color: hsl(0, 0%, 100%);
+  }
+  #frame-recipe {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    margin: 0;
+  }
+
+  hr {
+    width: 320px;
+    margin: auto;
+  }
+
+  /* Title Recipe */
+  #title-recipe {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  #title {
+    margin: 0;
+  }
+
+  .content-frame {
+    width: 320px;
+    margin: 10px auto;
+  }
+
+  #title-recipe p {
+    margin: 20px 0;
+  }
+
+  /* Preparation Time */
+  #prepare-time {
+    width: 320px;
+    height: 200px;
+    margin: 10px auto;
+  }
+
+  .list-content {
+    width: 300px;
+  }
+
+  h3 {
+    padding-top: 20px;
+  }
+
+  /* Ingredients */
+  #ingredients {
+    margin: 10px auto;
+    width: 320px;
+  }
+
+  #list-ingredient {
+    margin: 0;
+    padding-left: 25px;
+  }
+
+  /* Instructions */
+  #instructions {
+    margin: 10px auto;
+    width: 320px;
+  }
+
+  #list-steps li::before {
+    font-weight: 700;
+  }
+  /* Nutrition */
+  #nutrition {
+    margin: 10px auto;
+    padding: 0;
+    width: 320px;
+  }
+  #nutrition hr {
+    margin: 0;
+  }
+
+  .data-nutrition {
+    margin: 10px 30px;
+  }
+  #content-nutrition {
+    margin: 0;
+    padding-bottom: 20px;
+  }
+
+  #nutrition p.calories {
+    word-spacing: 90px;
+  }
+
+  #nutrition p.carbs {
+    word-spacing: 105px;
+  }
+
+  #nutrition p.protein {
+    word-spacing: 95px;
+  }
+  #nutrition p.fat {
+    word-spacing: 125px;
+  }
+
+  /* Footer */
+  .attribution {
+    padding-top: 20px;
+  }
+}

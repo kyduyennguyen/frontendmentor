@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(30, 54%, 90%);
+  color: hsl(30, 10%, 34%);
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+hr {
+  width: 640px;
+}
+
+#frame-recipe {
+  width: 700px;
+  height: 1780px;
+  background-color: hsl(0, 0%, 100%);
+  margin: 40px auto;
+  border-radius: 30px;
+}
+
+.content-frame {
+  width: 640px;
+}
+
+/* Title Recipe */
+#title-recipe {
+  width: 640px;
+  margin: auto;
+  padding: 30px 0;
+}
+
+img {
+  width: 640px;
+  height: 350px;
+  border-radius: 30px;
+}
+
+#title {
+  color: hsl(24, 5%, 18%);
+}
+
+/* Preparation Time */
+#prepare-time {
+  background-color: hsl(330, 100%, 98%);
+  width: 640px;
+  height: 170px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.list-content {
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+.list-content li {
+  padding-left: 15px;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  padding: 15px 20px 0 20px;
+  margin: auto;
+}
+
+/* all index title for content of recipe */
+.index-title {
+  color: hsl(14, 45%, 36%);
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.bold-content {
+  font-weight: 600;
+}
+
+/* Ingredients */
+#ingredients {
+  margin: 20px 30px;
+}
+
+#list-ingredient {
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+/* Instructions */
+#instructions {
+  margin: 20px 30px;
+  padding-bottom: 10px;
+}
+
+#list-steps {
+  margin: auto;
+  padding: 0 10px;
+  line-height: 30px;
+  list-style: none;
+  counter-reset: step;
+}
+
+#list-steps li {
+  font-weight: normal;
+}
+
+#list-steps li::before {
+  content: counter(step) ". ";
+  counter-increment: step;
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+  padding-right: 15px;
+}
+
+/* Nutrition */
+#nutrition {
+  margin: 20px 30px 30px 30px;
+}
+
+.data-nutrition {
+  margin: 10px 30px;
+}
+
+#nutrition p.calories {
+  word-spacing: 280px;
+}
+
+#nutrition p.carbs {
+  word-spacing: 295px;
+}
+
+#nutrition p.protein {
+  word-spacing: 285px;
+}
+#nutrition p.fat {
+  word-spacing: 310px;
+}
+
+#content-nutrition {
+  padding-bottom: 20px;
+}
+
+.number-nutrition {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 20px;
+  width: 100%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.attribution a:hover {
+  color: hsl(25, 97%, 53%);
+}
