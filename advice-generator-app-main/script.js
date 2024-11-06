@@ -14,9 +14,11 @@ btnChangeQuotes.addEventListener("click", () => {
 });
 
 // showQuotes function to show random quotes from API
-function showQuotes() {
-	fetch("https://api.adviceslip.com/advice")
-		.then((response) => response.json())
+async function showQuotes() {
+	const response = await fetch("https://api.adviceslip.com/advice", {
+		cache: "no-cache",
+	})
+		.then((res) => res.json())
 		.then((data) => data.slip)
 		.then((data) => {
 			adviceNum.textContent = data.id;
@@ -25,4 +27,5 @@ function showQuotes() {
 		.catch((error) => {
 			alert(`Error ${error}`);
 		});
+	return response;
 }
