@@ -7,6 +7,17 @@
 	font-size: 18px;
 }
 
+#title-main {
+	background-color: hsl(0, 0%, 95%);
+	font-size: 49px;
+	color: hsl(256, 67%, 59%);
+	text-shadow: 2px 2px 5px hsl(39, 100%, 71%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+}
+
 main {
 	background-color: hsl(0, 0%, 95%);
 	display: flex;
