@@ -43,8 +43,8 @@ Mobile preview:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution](https://github.com/kyduyennguyen/frontendmentor/tree/main/order-summary-component-main)
+- Live Site URL: [Order Summary Card](https://kyduyennguyen.github.io/frontendmentor/order-summary-component-main/index.html)
 
 ## My process
 
