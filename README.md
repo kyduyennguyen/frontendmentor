@@ -32,4 +32,16 @@ This folder contains multiple Frontend Mentor challenge projects. Each challenge
 - Results Summary Component: `results-summary-component-main/index.html`
 - Social Links Profile: `social-links-profile-main/index.html`
 
+## Live Site URL
+
+- [Advice Generator App](https://kyduyennguyen.github.io/frontendmentor/advice-generator-app-main/index.html)
+- [Age Calculator App](https://kyduyennguyen.github.io/frontendmentor/age-calculator-app-main/index.html)
+- [Bento Grid](https://kyduyennguyen.github.io/frontendmentor/bento-grid-main/index.html)
+- [Interactive Rating Component](https://kyduyennguyen.github.io/frontendmentor/interactive-rating-component-main/index.html)
+- [Product Preview Card Component](https://kyduyennguyen.github.io/frontendmentor/product-preview-card-component-main/index.html)
+- [QR Code Component](https://kyduyennguyen.github.io/frontendmentor/qr-code-component-main/index.html)
+- [Recipe Page](https://kyduyennguyen.github.io/frontendmentor/recipe-page-main/index.html)
+- [Results Summary Component](https://kyduyennguyen.github.io/frontendmentor/results-summary-component-main/index.html)
+- [Social Links Profile](https://kyduyennguyen.github.io/frontendmentor/social-links-profile-main/index.html)
+
 If you want, I can also turn this into a more polished README with badges, screenshots, and project descriptions.
