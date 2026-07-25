@@ -81,7 +81,7 @@ In future versions I want to:
 
 - [Frontend Mentor](https://www.frontendmentor.io) - challenge reference and design file
 - [MDN Web Docs: CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
-- [MDN Web Docs: Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)
+- [CSS RWD - Media Queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) - This guide helped me understand the **Mobile-First** approach and how to effectively use Media Queries to optimize layouts for handheld devices.
 
 ### AI Collaboration
 
@@ -89,7 +89,9 @@ In future versions I want to:
 
 ## Author
 
-- GitHub - [Angelly Nguyen](https://github.com/kyduyennguyen)
+- Github - [Angelly Nguyen](https://github.com/kyduyennguyen)
+- Frontend Mentor - [@kyduyennguyen](https://www.frontendmentor.io/profile/kyduyennguyen)
+- Linkedin - [Duyen Nguyen](https://www.linkedin.com/in/duyen-dk-nguyen/)
 
 ## Acknowledgments
 

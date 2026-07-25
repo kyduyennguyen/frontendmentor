@@ -31,6 +31,7 @@ This folder contains multiple Frontend Mentor challenge projects. Each challenge
 - Recipe Page: `recipe-page-main/index.html`
 - Results Summary Component: `results-summary-component-main/index.html`
 - Social Links Profile: `social-links-profile-main/index.html`
+- Order Summary Card: `order-summary-component-main/index.html`
 
 ## Live Site URL
 
@@ -43,5 +44,6 @@ This folder contains multiple Frontend Mentor challenge projects. Each challenge
 - [Recipe Page](https://kyduyennguyen.github.io/frontendmentor/recipe-page-main/index.html)
 - [Results Summary Component](https://kyduyennguyen.github.io/frontendmentor/results-summary-component-main/index.html)
 - [Social Links Profile](https://kyduyennguyen.github.io/frontendmentor/social-links-profile-main/index.html)
+- [Order Summary Card](https://kyduyennguyen.github.io/frontendmentor/order-summary-component-main/index.html)
 
 If you want, I can also turn this into a more polished README with badges, screenshots, and project descriptions.
