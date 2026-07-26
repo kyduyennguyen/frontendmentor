@@ -1,0 +1,138 @@
+/* Desktop/Default Device */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+#three-column-main {
+  width: 900px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 120px auto;
+}
+
+/* Custom column frames */
+#three-column-main .car-column-frame:nth-child(1) {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+  display: grid;
+  grid-template-rows: (4, auto);
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#three-column-main .car-column-frame:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+  display: grid;
+  grid-template-rows: (4, auto);
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#three-column-main .car-column-frame:nth-child(3) {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+  display: grid;
+  grid-template-rows: (4, auto);
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* Icon and paragraph of Columns */
+.car-column-frame img {
+}
+
+.car-column-frame p {
+  line-height: 25px;
+  word-spacing: 2px;
+}
+
+/* Title column */
+.title-columns {
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+}
+
+/* Learn More Button */
+.learn-more-btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  font-weight: 700;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+#sedans-column .learn-more-btn {
+  color: hsl(31, 77%, 52%);
+  border: 2px solid hsl(31, 77%, 52%);
+}
+
+#sedans-column .learn-more-btn:hover {
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(31, 77%, 52%);
+  border: 2px solid hsl(0, 0%, 95%);
+  font-weight: normal;
+}
+
+#suvs-column .learn-more-btn {
+  color: hsl(184, 100%, 22%);
+  border: 2px solid hsl(184, 100%, 22%);
+}
+
+#suvs-column .learn-more-btn:hover {
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(184, 100%, 22%);
+  border: 2px solid hsl(0, 0%, 95%);
+  font-weight: normal;
+}
+
+#luxury-column .learn-more-btn {
+  color: hsl(179, 100%, 13%);
+  border: 2px solid hsl(179, 100%, 13%);
+}
+
+#luxury-column .learn-more-btn:hover {
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(179, 100%, 13%);
+  border: 2px solid hsl(0, 0%, 95%);
+  font-weight: normal;
+}
+
+/* Footer */
+.attribution {
+  color: hsl(179, 100%, 13%);
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 20px;
+  width: 100%;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: hsl(31, 77%, 52%);
+}
+
+.attribution a:hover {
+  color: hsl(228, 45%, 44%);
+}
