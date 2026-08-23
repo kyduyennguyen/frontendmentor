@@ -33,6 +33,7 @@ This folder contains multiple Frontend Mentor challenge projects. Each challenge
 - Social Links Profile: `social-links-profile-main/index.html`
 - Order Summary Card: `order-summary-component-main/index.html`
 - 3-Column Preview Card Component: `3-column-preview-card-component-main/index.html`
+- Grid Landing Page: `grid-landing-page-main/index.html`
 
 ## Live Site URL
 
@@ -47,5 +48,6 @@ This folder contains multiple Frontend Mentor challenge projects. Each challenge
 - [Social Links Profile](https://kyduyennguyen.github.io/frontendmentor/social-links-profile-main/index.html)
 - [Order Summary Card](https://kyduyennguyen.github.io/frontendmentor/order-summary-component-main/index.html)
 - [3-Column Preview Card Component](https://kyduyennguyen.github.io/frontendmentor/3-column-preview-card-component-main/index.html)
+- [Grid Landing Page](https://kyduyennguyen.github.io/frontendmentor/grid-landing-page-main/index.html)
 
 If you want, I can also turn this into a more polished README with badges, screenshots, and project descriptions.

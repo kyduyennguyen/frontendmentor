@@ -18,10 +18,6 @@ body {
   font-size: 17px;
 }
 
-/* .page-shell {
-  margin: 50px auto;
-} */
-
 nav,
 footer,
 .stats-section {
@@ -69,10 +65,6 @@ footer,
 
 .hamburger-btn {
   cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  padding: 4px;
 }
 
 /* Main page */
@@ -153,12 +145,30 @@ footer,
 /* Dropdown Menu Section Links */
 .close-btn {
   display: none;
-  position: absolute;
+  position: static;
   top: 24px;
   right: 40px;
   font-size: 28px;
   cursor: pointer;
   height: 24px;
+}
+
+.menu-items-panel .brand-title {
+  display: none;
+}
+
+.title-menu-toggle {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 90% 10%;
+  align-items: center;
+  padding: 25px 40px;
+  border-bottom: none;
+  justify-content: space-between;
+}
+
+.title-menu-toggle .dropdown-menu {
+  grid-column-start: 2;
 }
 
 .menu-checkbox:checked ~ .menu-items-panel .close-btn {
@@ -174,13 +184,15 @@ footer,
   display: none;
   justify-content: flex-end;
   align-items: flex-start;
-  padding-right: 40px;
   background: hsl(228, 99%, 58%);
   z-index: 10;
 }
 
 .menu-checkbox:checked ~ .menu-items-panel {
   display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .nav-links {
@@ -190,13 +202,13 @@ footer,
   flex-direction: column;
   gap: 16px;
   width: 100%;
-  margin-top: 80px;
   padding-top: 20px;
   border-top: 1px solid hsl(224, 100%, 80%);
 }
 
 .nav-links li {
   width: 100%;
+  padding-right: 40px;
 }
 
 .nav-links a {
@@ -242,4 +254,167 @@ footer,
 
 .attribution a:hover {
   color: hsl(220, 100%, 64%);
+}
+
+/* Extra large devices (large laptops and desktops, 1450px and up) */
+@media only screen and (min-width: 1450px) {
+  .page-shell {
+    margin: 70px auto;
+  }
+
+  .nav-page,
+  .footer-main-page {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  .menu-items-panel {
+    margin-top: 40px;
+    padding-right: 0;
+  }
+
+  .hero-section {
+    padding-right: 400px;
+  }
+
+  .stats-section {
+    padding: 40px 60px;
+  }
+
+  .title-menu-toggle {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    align-items: center;
+    padding: 40px 60px;
+    border-bottom: none;
+    justify-content: space-between;
+  }
+
+  .title-menu-toggle .dropdown-menu {
+    grid-column-start: 2;
+  }
+
+  .close-btn {
+    position: static;
+    margin-top: 10px;
+  }
+
+  .menu-checkbox:checked ~ .menu-items-panel {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .nav-links {
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .nav-links a {
+    padding-right: 60px;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+  .nav-page {
+    padding: 21px 20px;
+  }
+
+  .main-page {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .hero-section,
+  .stats-section {
+    border-top: none;
+    border-left: none;
+    border-bottom: 1px solid hsl(224, 100%, 80%);
+  }
+
+  .hero-section {
+    height: 280px;
+    padding-right: 50px;
+    padding-left: 20px;
+  }
+
+  .hero-section h1 {
+    font-size: 40px;
+  }
+
+  .stats-section {
+    height: 280px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footer-main-page {
+    display: block;
+    padding: 20px;
+  }
+
+  .footer-main-page div {
+    margin-top: 5px;
+  }
+
+  .title-menu-toggle .dropdown-menu {
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+  }
+
+  .close-btn {
+    height: 20px;
+    width: 20px;
+    padding: 0;
+    top: 20px;
+    position: static;
+  }
+
+  .menu-items-panel .brand-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+  }
+
+  .menu-items-panel {
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    padding-right: 0;
+  }
+
+  .title-menu-toggle {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    align-items: center;
+    padding: 25px 20px;
+    border-bottom: 1px solid hsl(224, 100%, 80%);
+    justify-content: space-between;
+  }
+
+  .menu-checkbox:checked ~ .menu-items-panel {
+    display: block;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 0;
+  }
+
+  .attribution {
+    position: relative;
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 20%;
+  }
 }
