@@ -20,7 +20,7 @@
   <body>
     <nav class="menu-page">
       <!-- Sidebar starts -->
-      <div>
+      <div class="sidebar-start">
         <section class="section-title-menu-page">
           <img
             src="./assets/images/illustration-sun.svg"
@@ -32,33 +32,33 @@
         <section class="section-guest-navigation">
           <!-- Guest navigation -->
           <ul>
-            <li>
+            <li class="menu-options" id="active-option">
               <img src="./assets/images/icon-bed.svg" alt="Your stay option" />
               Your stay
-              <span>1</span>
+              <div id="notify-number">1</div>
             </li>
-            <li>
+            <li class="menu-options" id="house-option">
               <img
                 src="./assets/images/icon-house.svg"
                 alt="The house option"
               />
               The house
             </li>
-            <li>
+            <li class="menu-options" id="around-town-option">
               <img
                 src="./assets/images/icon-pin.svg"
                 alt="Around town option"
               />
               Around town
             </li>
-            <li>
+            <li class="menu-options" id="breakfast-option">
               <img
                 src="./assets/images/icon-breakfast-outline.svg"
                 alt="Breakfast option"
               />
               Breakfast
             </li>
-            <li>
+            <li class="menu-options" id="messages-option">
               <img src="./assets/images/icon-mail.svg" alt="Messages option" />
               Messages
             </li>
@@ -66,14 +66,25 @@
         </section>
       </div>
       <!-- Sidebar ends -->
-      <div>
-        <section>
+      <div class="sidebar-end">
+        <section class="section-local-weather">
           <!-- Local weather -->
-          <aside>Today in Cassis 27° Sunny · light breeze</aside>
-          <hr />
-          <aside>
-            Est. 1987 Maison Soleil · 12 Rue des Oliviers · Cassis © 2026 Maison
-            Soleil
+          <aside id="main-local-weather">
+            <img
+              id="sun-local-weather"
+              src="./assets/images/icon-weather.svg"
+              alt="Sun of local weather"
+            />
+            <p id="title-local-weather">Today in Cassis</p>
+            <h2>27°</h2>
+            <p id="content-local-weather">Sunny · light breeze</p>
+          </aside>
+          <hr id="hr-local-weather" />
+          <aside id="footer-local-weather">
+            <p>Est. 1987</p>
+            <p>Maison Soleil · 12 Rue des</p>
+            <p>Oliviers · Cassis</p>
+            <p>© 2026 Maison Soleil</p>
           </aside>
         </section>
       </div>
