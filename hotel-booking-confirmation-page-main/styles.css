@@ -1,0 +1,129 @@
+/* Set Font for web page */
+@font-face {
+  font-family: "DM Mono Regular";
+  src: url("./assets/fonts/dm-mono/DMMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DM Mono Medium";
+  src: url("./assets/fonts/dm-mono/DMMono-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("./assets/fonts/dm-sans/DMSans-VariableFont_opsz\,wght.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fraunces Italic";
+  src: url("./assets/fonts/fraunces/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Fraunces Regular";
+  src: url("./assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Full Body Page */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(35, 60%, 96%);
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-weight: 400;
+  display: grid;
+  grid-template-columns: 300px auto;
+}
+
+/* Menu Page - Sidebar start section */
+.menu-page {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border-right: 1px solid hsl(36, 22%, 86%);
+}
+
+.section-title-menu-page {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 150px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.section-title-menu-page img {
+  width: 40px;
+  height: 40px;
+}
+
+#title-menu {
+  font-family: "Fraunces Italic";
+  font-size: 20px;
+  color: hsl(22, 72%, 56%);
+}
+
+#title-menu span {
+  font-family: "Fraunces Regular";
+  color: hsl(33, 15%, 15%);
+  font-weight: 600;
+}
+
+#hr-of-title-nav {
+  width: 260px;
+  margin: 0 20px;
+  /* background-color: hsl(33, 17%, 41%); */
+  border: 0.5px solid hsl(36, 22%, 86%);
+}
+
+/* Guest navigation section */
+.section-guest-navigation {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.section-guest-navigation ul {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.section-guest-navigation li {
+  display: grid;
+  width: 240px;
+  grid-template-columns: 20px 180px 20px;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Footer for attribution */
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  grid-column: auto / span 2;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
