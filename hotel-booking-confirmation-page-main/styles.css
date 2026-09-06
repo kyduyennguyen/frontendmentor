@@ -82,7 +82,7 @@ body {
 #title-menu {
   font-family: "Fraunces Italic";
   font-size: 20px;
-  color: hsl(22, 72%, 56%);
+  color: hsl(15, 74%, 41%);
 }
 
 #title-menu span {
@@ -126,7 +126,8 @@ body {
 }
 
 .menu-options:active {
-  border: 2px solid hsl(15, 74%, 41%);
+  outline: 2px solid hsl(15, 74%, 41%);
+  outline-offset: 2px;
 }
 
 #notify-number {
@@ -163,23 +164,112 @@ body {
   position: relative;
   overflow: hidden;
   color: hsl(32, 20%, 29%);
+  padding-left: 20px;
 }
 
 #sun-local-weather {
   position: absolute;
   top: -30px;
-  right: -15px;
+  right: -20px;
 }
 
 #title-local-weather {
   text-transform: uppercase;
   font-family: "DM Mono Regular";
+  margin-top: 10px;
 }
 
 #main-local-weather h2 {
   font-family: "Fraunces Regular";
   font-size: 34px;
   color: hsl(33, 15%, 15%);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#footer-local-weather {
+  margin: 10px 20px;
+  font-family: "DM Mono Medium";
+  text-transform: uppercase;
+  color: hsl(33, 17%, 50%);
+}
+
+#footer-local-weather p {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+/* Main Content Page */
+.main-content-page {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+/* Header Main Content section */
+.header-main-content {
+  display: grid;
+  grid-template-columns: auto 300px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#header-main-content-left p {
+  font-family: "DM Mono Medium";
+  text-transform: uppercase;
+  color: hsl(33, 17%, 50%);
+  margin-bottom: 5px;
+}
+
+#header-main-content-left h1 {
+  font-family: "Fraunces Regular";
+  font-size: 42px;
+  color: hsl(33, 22%, 20%);
+}
+
+#header-main-content-left span {
+  font-family: "Fraunces Italic";
+  color: hsl(15, 74%, 41%);
+}
+
+#header-main-content-right {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#header-main-content-right button {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: "DM Mono Medium";
+  border: 1px solid hsl(33, 17%, 41%);
+  cursor: pointer;
+}
+
+#print-btn {
+  color: hsl(33, 22%, 20%);
+  background-color: hsl(35, 60%, 96%);
+}
+
+#print-btn:hover {
+  background-color: hsl(36, 22%, 86%);
+}
+
+#add-btn {
+  background-color: hsl(33, 22%, 20%);
+  color: hsl(0, 0%, 100%);
+}
+
+#add-btn:hover {
+  background-color: hsl(33, 17%, 41%);
+}
+
+#header-main-content-right button:active {
+  outline: 2px solid hsl(15, 74%, 41%);
+  outline-offset: 3px;
 }
 
 /* Footer for attribution */

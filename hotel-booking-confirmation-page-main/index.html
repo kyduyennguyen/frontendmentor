@@ -82,8 +82,7 @@
           <hr id="hr-local-weather" />
           <aside id="footer-local-weather">
             <p>Est. 1987</p>
-            <p>Maison Soleil · 12 Rue des</p>
-            <p>Oliviers · Cassis</p>
+            <p>Maison Soleil · 12 Rue des <br />Oliviers · Cassis</p>
             <p>© 2026 Maison Soleil</p>
           </aside>
         </section>
@@ -92,16 +91,18 @@
 
     <main class="main-content-page">
       <!-- Main content starts -->
-      <section>
-        <p>Booking · Confirmed</p>
-        <h1>Bienvenue, <span>Lucia.</span></h1>
-        <div>
-          <button>Print receipt</button>
-          <button>Add to calendar</button>
+      <section class="header-main-content">
+        <div id="header-main-content-left">
+          <p>Booking · Confirmed</p>
+          <h1>Bienvenue, <span>Lucia.</span></h1>
+        </div>
+        <div id="header-main-content-right">
+          <button id="print-btn">Print receipt</button>
+          <button id="add-btn">Add to calendar</button>
         </div>
       </section>
       <!-- Booking cards start -->
-      <section>
+      <section class="booking-cards-start">
         <article>
           <!-- Receipt card -->
           <div>
@@ -176,10 +177,14 @@
         </article>
       </section>
       <!-- Booking cards end -->
-      <p>HOVER TO FAN</p>
+      <section id="booking-cards-end">
+        <img src="./assets/images/icon-sparkle.svg" alt="Sparkle start" />
+        <p>HOVER TO FAN</p>
+        <img src="./assets/images/icon-sparkle.svg" alt="Sparkle end" />
+      </section>
 
       <!-- Guest info row starts -->
-      <section>
+      <section class="guest-info-row">
         <aside>
           <!-- Arrival -->
           <div>
