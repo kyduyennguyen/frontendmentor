@@ -13,3 +13,17 @@
 
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
+
+# Avoid update or add these folders to repo
+./3-column-preview-card-component-main/*
+./advice-generator-app-main/*
+./age-calculator-app-main/*
+./bento-grid-main/*
+./grid-landing-page-main/*
+./interactive-rating-component-main/*
+./order-summary-component-main/*
+./product-preview-card-component-main/*
+./qr-code-component-main/*
+./recipe-page-main/*
+./results-summary-component-main/*
+./social-links-profile-main/*
