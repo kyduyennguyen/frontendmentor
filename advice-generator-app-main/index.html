@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+		<link rel="stylesheet" href="./styles/style.css" />
+		<link rel="stylesheet" href="./styles/mobile-style.css" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | Advice generator app</title>
+	</head>
+	<body>
+		<main>
+			<div class="main-frame">
+				<main class="frame-quote">
+					<p class="title-advice">ADVICE #<span id="number-advice"></span></p>
+					<div class="quotes-advice">
+						<!-- Show advice quotes -->
+						<p class="quotes">Loading...</p>
+						<!-- pattern divider -->
+						<img id="pattern-divider" alt="pattern-divider" />
+					</div>
+				</main>
+				<button id="btn-change-quote">
+					<img
+						id="icon-dice"
+						src="./images/icon-dice.svg"
+						alt="icon-dice-btn"
+					/>
+				</button>
+			</div>
+
+			<footer class="attribution">
+				Challenge by
+				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+					>Frontend Mentor</a
+				>. Coded by
+				<a href="https://github.com/kyduyennguyen">Angelly Nguyen</a>.
+			</footer>
+		</main>
+		<script src="./script.js"></script>
+	</body>
+</html>
