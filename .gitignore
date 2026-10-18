@@ -15,6 +15,7 @@
 .DS_Store
 
 # Avoid update or add these folders to repo
+3-column-preview-card-component-main/
 advice-generator-app-main/
 age-calculator-app-main/
 bento-grid-main/
