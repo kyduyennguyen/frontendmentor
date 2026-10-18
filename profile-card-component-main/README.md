@@ -44,8 +44,8 @@ Mobile preview:
 
 ### Links
 
-- Solution URL: [GitHub repository](../)
-- Live Site URL: [Open local project](./index.html)
+- Solution URL: [GitHub repository](https://github.com/kyduyennguyen/frontendmentor/tree/main/profile-card-component-main)
+- Live Site URL: [Open local project](https://kyduyennguyen.github.io/frontendmentor/profile-card-component-main/index.html)
 
 ## My process
 
