@@ -1,0 +1,135 @@
+/* Desktop Responsive */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url("./assets/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+}
+
+/* Main */
+#order-summary-component {
+  width: 400px;
+  height: 650px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 50px auto;
+}
+
+#title-order-summary,
+#plan-title {
+  color: hsl(223, 47%, 23%);
+}
+
+/* Order summary text section */
+#order-summary-text {
+  width: 300px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* Order summary plan section */
+#order-summary-plan {
+  width: 320px;
+  height: 100px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+  padding: 0px 20px;
+  margin: 20px auto;
+}
+
+#plan-text {
+  text-align: center;
+}
+
+#order-summary-plan a {
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+#order-summary-plan a:hover {
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+/* Order summary buttons section */
+#order-summary-buttons {
+  width: 320px;
+  margin: 10px auto;
+}
+
+.summary-btn {
+  width: 320px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 900;
+  color: hsl(224, 23%, 55%);
+  background: none;
+  margin: 5px auto;
+}
+
+.summary-btn:hover {
+  cursor: pointer;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  box-shadow: 0px 10px 20px hsl(245, 75%, 80%);
+}
+
+/* Mobile Responsive (Extra small devices (phones, 600px and down)) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("./assets/images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 600px 300px;
+    background-attachment: fixed;
+    background-position: center top;
+    background-color: hsl(225, 100%, 94%);
+    color: hsl(224, 23%, 55%);
+  }
+
+  #order-summary-component {
+    width: 340px;
+    height: 600px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 50px auto;
+  }
+
+  #order-summary-text,
+  #order-summary-plan,
+  #order-summary-buttons {
+    width: 300px;
+    margin: 10px auto;
+  }
+
+  .summary-btn {
+    width: 300px;
+  }
+}
+
+/* Footer section */
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: hsl(218, 23%, 16%);
+	font-family: "Manrope", sans-serif;
+}
+
+/* Main Frame */
+.main-frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+/* Frame Quotes */
+.frame-quote {
+	position: relative;
+	width: 650px;
+	height: 350px;
+	background-color: hsl(217, 19%, 24%);
+	border-radius: 20px;
+}
+
+.title-advice {
+	padding-top: 50px;
+	color: hsl(150, 100%, 66%);
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+.quotes-advice {
+	width: 600px;
+	height: 200px;
+	padding: 25px;
+}
+
+.quotes {
+	text-align: center;
+	color: hsl(193, 38%, 86%);
+	font-size: 28px;
+	font-weight: 800;
+	letter-spacing: 2px;
+	line-height: 38px;
+	padding: 0 20px;
+}
+
+#pattern-divider {
+	padding: 20px 78px 10px 78px;
+	content: url("../images/pattern-divider-desktop.svg");
+}
+
+/* Advice change button  */
+#btn-change-quote {
+	position: absolute;
+	background-color: hsl(150, 100%, 66%);
+	border: none;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	left: 296px;
+	top: 323px;
+}
+
+#btn-change-quote:hover {
+	box-shadow: 0 0 16px 12px hsla(150, 100%, 66%, 0.3);
+	cursor: pointer;
+}
+
+/* Footer */
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 30px;
+	width: 100%;
+	letter-spacing: 2px;
+	color: hsl(193, 38%, 86%);
+}
+
+.attribution a {
+	color: hsl(150, 100%, 66%);
+	text-decoration: none;
+}
+
+.attribution a:hover {
+	color: hsl(217, 19%, 38%);
+}
