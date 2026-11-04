@@ -50,7 +50,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   display: grid;
-  grid-template-columns: 300px auto;
+  grid-template-columns: 240px auto;
 }
 
 /* Menu Page - Sidebar start section */
@@ -67,8 +67,7 @@ body {
   grid-template-columns: repeat(2, auto);
   margin-top: 20px;
   margin-bottom: 10px;
-  margin-left: 5px;
-  margin-right: 150px;
+  margin-right: 110px;
   justify-content: center;
   align-items: center;
   gap: 5px;
@@ -92,26 +91,26 @@ body {
 }
 
 #hr-of-title-nav {
-  width: 260px;
-  margin: 0 20px;
+  width: 220px;
+  margin: 0 10px;
   border: 0.5px solid hsl(36, 22%, 86%);
 }
 
 /* Guest navigation section */
 .section-guest-navigation {
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .section-guest-navigation ul {
   list-style: none;
-  width: 260px;
+  width: 220px;
 }
 
 .menu-options {
   display: grid;
   height: 40px;
-  grid-template-columns: 40px 160px 40px;
+  grid-template-columns: 20px 120px 40px;
   gap: 10px;
   align-items: center;
   padding-left: 10px;
@@ -144,8 +143,8 @@ body {
 
 /* Local weather section */
 #hr-local-weather {
-  width: 260px;
-  margin: 0 20px;
+  width: 220px;
+  margin: 0 10px;
   border: 1px dashed hsl(36, 22%, 86%);
 }
 
@@ -155,9 +154,9 @@ body {
 }
 
 #main-local-weather {
-  margin-left: 20px;
+  margin-left: 10px;
   margin-bottom: 20px;
-  width: 260px;
+  width: 220px;
   height: 110px;
   background-color: hsl(44, 84%, 75%);
   border-radius: 10px;
@@ -188,7 +187,7 @@ body {
 }
 
 #footer-local-weather {
-  margin: 10px 20px;
+  margin: 10px;
   font-family: "DM Mono Medium";
   text-transform: uppercase;
   color: hsl(33, 17%, 50%);
@@ -213,7 +212,7 @@ body {
   display: grid;
   grid-template-columns: auto 300px;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 #header-main-content-left p {
@@ -275,12 +274,66 @@ body {
 /* Booking cards start section */
 .booking-cards-start {
   width: 100%;
+  height: 500px;
+  position: relative;
+  margin: 0 auto;
+  isolation: isolate;
+  margin: 0 30px;
+}
+
+.booking-cards-start::before {
+  position: absolute;
+  top: 50%;
+  left: 47.5%;
+  width: 120px;
+  height: 120px;
+  content: "";
+  background: url("./assets/images/illustration-sun.svg") center / contain
+    no-repeat;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0.6);
+  transition:
+    opacity 500ms ease,
+    transform 700ms ease;
+}
+
+.booking-cards-start .receipt-card-section,
+.booking-cards-start .host-card-section {
+  position: absolute;
+  top: 20px;
+  transition: transform 700ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.booking-cards-start .receipt-card-section {
+  left: 5%;
+  z-index: 1;
+  transform: rotate(-4deg);
+}
+
+.booking-cards-start .host-card-section {
+  left: 45%;
+  z-index: 2;
+  transform: rotate(4deg);
+}
+
+.booking-cards-start:hover .receipt-card-section {
+  transform: translateX(-40px) rotate(4deg);
+}
+
+.booking-cards-start:hover .host-card-section {
+  transform: translateX(90px) rotate(-4deg);
+}
+
+.booking-cards-start:hover::before {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
 }
 
 /* Receipt Card section */
 .receipt-card-section {
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 470px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 24px;
   box-shadow:
@@ -323,7 +376,7 @@ body {
   justify-content: space-around;
   align-items: center;
   gap: 50px;
-  margin: 35px 0;
+  margin: 20px 0;
   color: hsl(33, 17%, 41%);
 }
 
@@ -394,8 +447,8 @@ body {
 
 /* Note from host card */
 .host-card-section {
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 470px;
   border-radius: 24px;
   /* Main warm orange background */
   background:
@@ -444,7 +497,7 @@ body {
 #content-host-card {
   color: hsl(36, 22%, 86%);
   text-align: justify;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.5px;
 }
 
@@ -464,7 +517,7 @@ body {
 
 #a-note-content {
   margin-top: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 #footer-note-room {
@@ -480,6 +533,119 @@ body {
   letter-spacing: 1px;
 }
 
+/* Booking cards end section */
+#booking-cards-end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: hsl(33, 17%, 41%);
+}
+
+/* Guest info row starts section */
+.guest-info-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.guest-info-row img {
+  width: 30px;
+  height: 30px;
+}
+
+.guest-info-card {
+  width: 350px;
+  height: 250px;
+  border-radius: 24px;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(36, 22%, 86%);
+  padding: 20px;
+}
+
+.guest-info-card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.guest-info-card-header-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.guest-info-card-header-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#arrival-card .guest-info-card-header-icon {
+  background-color: hsl(15, 74%, 41%);
+}
+
+#arrival-card .guest-info-title {
+  color: hsl(15, 74%, 41%);
+  font-family: "DM Mono Medium";
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#arrival-card .guest-info-number {
+  color: hsl(15, 74%, 41%);
+  font-size: 22px;
+  font-family: "Fraunces Regular";
+}
+
+#wifi-card .guest-info-card-header-icon {
+  background-color: hsl(230, 49%, 56%);
+}
+
+#wifi-card .guest-info-title {
+  color: hsl(230, 49%, 56%);
+  font-family: "DM Mono Medium";
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#wifi-card .guest-info-number {
+  color: hsl(230, 49%, 56%);
+  font-size: 22px;
+  font-family: "Fraunces Regular";
+}
+
+#breakfast-card .guest-info-card-header-icon {
+  background-color: hsl(340, 48%, 52%);
+}
+
+#breakfast-card .guest-info-title {
+  color: hsl(340, 48%, 52%);
+  font-family: "DM Mono Medium";
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#breakfast-card .guest-info-number {
+  color: hsl(340, 48%, 52%);
+  font-size: 22px;
+  font-family: "Fraunces Regular";
+}
+
 /* Footer for attribution */
 .attribution {
   font-size: 12px;
@@ -488,4 +654,13 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Media */
+@media (prefers-reduced-motion: reduce) {
+  .booking-cards-start::before,
+  .booking-cards-start .receipt-card-section,
+  .booking-cards-start .host-card-section {
+    transition-duration: 0.01ms;
+  }
 }
